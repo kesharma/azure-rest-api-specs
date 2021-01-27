@@ -6275,6 +6275,14 @@
         "description": "Type: string (or Expression with resultType string)."
       }
     },
+    "AzureDataPathAssignments": {
+      "description": "Dictionary used for changing datapaths without retraining. Values will be passed in the dataPathAssignments property of the published pipeline execution request.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "description": "Type: string (or Expression with resultType string)."
+      }
+    },
     "DataLakeAnalyticsUSQLActivity": {
       "description": "Data Lake Analytics U-SQL activity.",
       "x-ms-discriminator-value": "DataLakeAnalyticsU-SQL",
